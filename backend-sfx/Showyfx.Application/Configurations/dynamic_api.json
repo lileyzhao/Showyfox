@@ -1,0 +1,61 @@
+{
+  "$schema": "https://gitee.com/dotnetchina/Furion/raw/v4/schemas/v4/furion-schema.json",
+  "DynamicApiControllerSettings": {
+    "DefaultRoutePrefix": "api",
+    // 默认路由前缀
+    "CamelCaseSeparator": "",
+    // 驼峰命名分隔符
+    "SplitCamelCase": false,
+    // 切割骆驼(驼峰)/帕斯卡命名
+    "LowercaseRoute": false,
+    // 小写路由格式
+    "AsLowerCamelCase": true,
+    // 小驼峰命名（首字母小写）
+    "KeepVerb": false,
+    // 保留动作方法请求谓词
+    "KeepName": false,
+    // 保持原有名称不处理
+    "VerbToHttpMethods": [
+      [
+        "get",
+        "POST"
+      ],
+      [
+        "find",
+        "POST"
+      ],
+      [
+        "fetch",
+        "POST"
+      ],
+      [
+        "query",
+        "POST"
+      ],
+      [
+        "put",
+        "POST"
+      ],
+      [
+        "update",
+        "POST"
+      ],
+      [
+        "delete",
+        "POST"
+      ],
+      [
+        "remove",
+        "POST"
+      ],
+      [
+        "clear",
+        "POST"
+      ],
+      [
+        "patch",
+        "POST"
+      ]
+    ]
+  }
+}

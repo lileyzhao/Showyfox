@@ -1,0 +1,8 @@
+﻿{
+  "SnowId": {
+    "WorkerId": 1,
+    "WorkerIdBitLength": 6,
+    "SeqBitLength": 6,
+    "BaseTime": "2023-11-24"
+  }
+}

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{3C2FAECD-330A-4E6D-A771-F6921C23D997}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showyfx.Core", "Showyfx.Core\Showyfx.Core.csproj", "{692D9065-4EE8-40EC-B47C-80567B54242D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showyfx.Application", "Showyfx.Application\Showyfx.Application.csproj", "{34253508-E638-45B1-BAC7-E351F3EE9C40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showyfx.Web.Core", "Showyfx.Web.Core\Showyfx.Web.Core.csproj", "{9EE9CD99-156E-4B20-8C81-DB12456F6542}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showyfx.Web.Entry", "Showyfx.Web.Entry\Showyfx.Web.Entry.csproj", "{7D4305AA-81E4-4AA9-B5AB-E727FFA8CB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showyfx.XConsole", "Showyfx.XConsole\Showyfx.XConsole.csproj", "{3ED797F2-4623-4331-AAD6-8F38C3CA323B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692D9065-4EE8-40EC-B47C-80567B54242D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692D9065-4EE8-40EC-B47C-80567B54242D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692D9065-4EE8-40EC-B47C-80567B54242D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692D9065-4EE8-40EC-B47C-80567B54242D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34253508-E638-45B1-BAC7-E351F3EE9C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34253508-E638-45B1-BAC7-E351F3EE9C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34253508-E638-45B1-BAC7-E351F3EE9C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34253508-E638-45B1-BAC7-E351F3EE9C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE9CD99-156E-4B20-8C81-DB12456F6542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE9CD99-156E-4B20-8C81-DB12456F6542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE9CD99-156E-4B20-8C81-DB12456F6542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE9CD99-156E-4B20-8C81-DB12456F6542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4305AA-81E4-4AA9-B5AB-E727FFA8CB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4305AA-81E4-4AA9-B5AB-E727FFA8CB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4305AA-81E4-4AA9-B5AB-E727FFA8CB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4305AA-81E4-4AA9-B5AB-E727FFA8CB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED797F2-4623-4331-AAD6-8F38C3CA323B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED797F2-4623-4331-AAD6-8F38C3CA323B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED797F2-4623-4331-AAD6-8F38C3CA323B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED797F2-4623-4331-AAD6-8F38C3CA323B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22547534-D5D2-4E5E-9AD0-29115F0AE187}
+	EndGlobalSection
+EndGlobal

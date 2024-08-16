@@ -1,0 +1,19 @@
+﻿{
+  "Database1": {
+    "EnablePrintSql": true,
+    "DbConnConfigs": [
+      {
+        "DbType": "MySql",
+        "ConnectionString": "Server=.",
+        "IsInitDb": true,
+        "IsUpdateDb": false,
+        "IsInitSeed": true,
+        "IsUpdateSeed": false,
+        "EnableSnakeCase": true,
+        "EnableDiffLog": true,
+        "TablePrefix": "xx_",
+        "DefaultStringLength": 128
+      }
+    ]
+  }
+}
